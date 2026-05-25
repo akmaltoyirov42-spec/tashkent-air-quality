@@ -21,18 +21,6 @@ Hourly readings, 6 districts, 2022–2024. Pollutants: PM2.5, PM10, NO2, O3, CO.
 
 ---
 
-## Charts
-
-| Seasonal pattern | By district |
-|---|---|
-| ![seasonal](output/1_seasonal_pm25.png) | ![districts](output/2_district_comparison.png) |
-
-| Rush hour effect | Pollutant correlations |
-|---|---|
-| ![hourly](output/3_hourly_pattern.png) | ![corr](output/4_correlation.png) |
-
----
-
 ## How to run
 
 ```bash
