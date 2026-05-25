@@ -1,10 +1,10 @@
-# Tashkent Air Quality — EDA
+# tashkent air quality — EDA
 
 ![Python](https://img.shields.io/badge/python-3.11-blue)
 ![pandas](https://img.shields.io/badge/pandas-2.2-150458?logo=pandas)
 ![numpy](https://img.shields.io/badge/numpy-1.26-013243?logo=numpy)
 
-I'm from Tashkent so I know how bad the air gets in winter. Wanted to look at the actual numbers across different districts and see what the data says.
+i'm from tashkent so i know how bad the air gets in winter. wanted to look at the actual numbers across different districts and see what the data says.
 
 Dataset: [Tashkent City Air Quality Monitoring — Kaggle](https://www.kaggle.com/datasets/elyordev/air-quality-tashkent)  
 Hourly readings, 6 districts, 2022–2024. Pollutants: PM2.5, PM10, NO2, O3, CO.
@@ -49,6 +49,10 @@ python eda.py
 
 ---
 
-## Stack
+## what's next
+
+want to build a PM2.5 forecasting model — predict tomorrow's air quality from the last 7 days plus weather. probably an LSTM or a simple gradient boosting setup. would be useful for actually deciding when to wear a mask.
+
+---
 
 pandas, numpy, matplotlib, seaborn
